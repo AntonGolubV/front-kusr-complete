@@ -1,0 +1,12 @@
+.footer{
+    width: 100vw;
+    height: 16vh;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.pos-git{
+    width: 200px;
+    height: 100px;
+}

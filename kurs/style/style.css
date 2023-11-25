@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+} 
+body{
+    padding: 0;
+    margin: 0;
+}
+i{   
+    position: absolute;   
+    color: blue;  
+    top: -150px;   
+}   
+.pos{  
+    position: absolute;  
+}  
+
+
+
+
+
+

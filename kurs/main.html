@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/logBoard.css">
+    <link rel="stylesheet" href="./style/settingsUser.css">
+    <link rel="stylesheet" href="./style/topWC.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/fir.css">
+    <link rel="stylesheet" href="./style/downMain.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="fir" style="background: url(img/leto3.jpg) no-repeat center/cover;">
+        <div class="header">
+            <ul>
+                <li>П</li>
+                <li>о</li>
+                <li>г</li>
+                <li>о</li>
+                <li>д</li>
+                <li>а</li>
+            </ul>  
+          <button type="button" class="btn btn-warning log">Войти</button>
+      </div>
+      <div class="main">
+          <div class="leftMain">
+              <div class="main">
+                  <div class="leftMain">
+                      <h3 style="color: white;">Завтра</h3>
+                      <div class="tomorrow">
+                          
+                          <div class="infoTomorrow" data='humidity' >
+                              <div class="infoText">Влажность:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">Ветер км/ч:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">миль/ч:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">Шанс снега:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">Шанс дождя:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">макс C:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">мин C:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">макс F:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                          <div class="infoTomorrow">
+                              <div class="infoText">мин F:</div>
+                              <div class="infoPrecent"></div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+                  </div>
+          </div>
+          <div class="centerMain">
+              <div class="settings">
+                <div>
+                    <input type="text" class = "inputNumber"> 
+                    <button class="btn btn-success">Поиск</button>
+                </div>
+                
+                <select name="City">
+                    <option value="Minsk" class="Minsk">Minsk</option>
+                    <option value="London" class="London">London</option>
+                    <option value="Brest" class="Brest">Brest</option>
+                    <option value="Gomel" class="Gomel">Gomel</option>
+                    <option value="Vitebsk" class="Vitebsk">Vitebsk</option>
+                    <option value="Grodno" class="Grodno">Grodno</option>
+                    <option value="Mogilev" class="Mogilev">Mogilev</option>
+                </select> 
+
+            <button class="btn btn-primary">Показать</button>
+
+            </div>
+            <div class="topWC">
+                  <div class="weatherCard">
+                      <div class="headerCard"></div>
+                      <div class="downCardblock">
+                          <div class="temp"></div>
+                          <div class="data"></div>
+                      </div>
+                  </div>
+                  <div class="weatherCard">
+                      <div class="headerCard"></div>
+                      <div class="downCardblock">
+                          <div class="temp"></div>
+                          <div class="data"></div>
+                      </div>
+                  </div>
+                  <div class="weatherCard">
+                      <div class="headerCard"></div>
+                      <div class="downCardblock">
+                          <div class="temp"></div>
+                          <div class="data"></div>
+                      </div>
+                  </div>
+          </div>
+        </div>
+          <div class="leftMain">
+            <h3 style="color: white;">Послезавтра</h3>
+            <div class="tomorrow">
+                
+                <div class="infoTomorrow">
+                    <div class="infoText">Влажность:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">Ветер км/ч:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">миль/ч:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">Шанс снега:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">Шанс дождя:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">макс C:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">мин C:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">макс F:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+                <div class="infoTomorrow">
+                    <div class="infoText">мин F:</div>
+                    <div class="infoAPrecent"></div>
+                </div>
+            </div>
+        </div>  
+    </div>
+  </div>
+      <div class="downMain" style="background: url(img/leto1.jpg)no-repeat center/cover;">
+        <div class="more">
+            Сегодня потробнее
+        </div>
+          
+          <div class="gridMain"></div>
+
+      </div>
+      
+      
+  <div class="footer">
+    <a href="https://github.com/AntonGolubV"><button type="button" class="btn btn-warning pos-git">Мой GitHub</button></a>
+    <a href="https://www.weatherapi.com/docs/"><button type="button" class="btn btn-warning pos-git">Api сервер</button></a>
+  </div>
+  
+  <script src="./script/toolsScript.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
